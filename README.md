@@ -1,4 +1,4 @@
-## 作者的话：prefill并不是100%生效！具体还是得看首token速度/524报错和token/s!如果不想看这个ai写的md废话的话，直接跳到 最重要的：beta 端点 prefill 注入 。
+## 作者的话：prefill并不是100%生效！本人并没有仔细测试过此方法下的智商！具体还是得看首token速度/524报错和token/s!如果不想看这个ai写的md废话的话，直接跳到 最重要的：beta 端点 prefill 注入 。
 ---
 name: deepseek-iam-thinking-injection
 description: >
