@@ -18,7 +18,7 @@ description: >
 2. **判断标准 = 思维链内容是不是「现在进行时」**：
    - ✅ `I am building... / I am now designing... / I'm currently...`（英文）
    - ✅ `我正在规划... / 我现在设计...`（中文）
-   - ❌ `Let me...`（灰测降智特征，网上称出现即降智）
+   - ❌ `Let me...`（降智特征，网上称出现即降智）
    - ❌ `I need to / I'll`（一般将来/意愿，不算现在进行时）
 3. **关键注入手段 = beta 端点 + `prefix:True`**（Chat Prefix Completion），
    这是官方给思维链 prefill 的正规通道，普通端点（/chat/completions）会被忽略。
@@ -28,7 +28,7 @@ description: >
 
 ## 判断灰测 vs 正式版（性能维度）
 
-| 指标 | 正式/标准 | 灰测（降智） |
+| 指标 | 正式/标准（降智） | 正式/标准 |
 |---|---|---|
 | 首 token 时间 (TTFT) | ~0.6~1.6s | ~10s |
 | token/s | ~107~115 | ~30 |
