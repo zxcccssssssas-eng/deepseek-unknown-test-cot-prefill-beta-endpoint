@@ -166,7 +166,7 @@ I am currently focused on evaluating the task. I am planning the structure.
 2. **prefill 一段第一人称现在进行时前缀**（上面模板任选），即可让 DeepSeek 用 I am 风格续写。
 3. **兼容非流式**：思维链可能落在 `content` 而非 `reasoning_content`，两处都要读。
 4. **想保持高速**（非灰测）：不加现在进行时强制，只用默认模板即可（~110 tok/s）。
-5. **想验证是否灰测**：读 `usage.service_tier`（`grey-test` = 灰测）＋ 测 TTFT/token/s。
+5. **想验证是否灰测**：读 `usage.service_tier`（未知tire = 灰测）＋ 测 TTFT/token/s。
 6. **换 User-Agent 无效**：实测 deepseek-harness / opencode / claude-code 四种 UA 不改变思维链风格，
    真正决定风格的是 key 路由到的节点 + 是否用 beta prefill。
 
